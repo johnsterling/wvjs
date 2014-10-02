@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD6BD5819DA4A1D0067BB66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6BD5719DA4A1D0067BB66 /* main.m */; };
+		3BD6BD5B19DA4A1D0067BB66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6BD5A19DA4A1D0067BB66 /* AppDelegate.m */; };
+		3BD6BD5E19DA4A1D0067BB66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6BD5D19DA4A1D0067BB66 /* ViewController.m */; };
+		3BD6BD6119DA4A1D0067BB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD6BD5F19DA4A1D0067BB66 /* Main.storyboard */; };
+		3BD6BD6319DA4A1D0067BB66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD6BD6219DA4A1D0067BB66 /* Images.xcassets */; };
+		3BD6BD6619DA4A1D0067BB66 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD6BD6419DA4A1D0067BB66 /* LaunchScreen.xib */; };
+		3BD6BD7219DA4A1D0067BB66 /* JavaScript_BridgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6BD7119DA4A1D0067BB66 /* JavaScript_BridgeTests.m */; };
+		3BD6BD7D19DA4D810067BB66 /* JavaScriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6BD7C19DA4D810067BB66 /* JavaScriptBridge.m */; };
+		3BD6BD8219DB3A420067BB66 /* JavaScriptBridge.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BD6BD8119DB3A420067BB66 /* JavaScriptBridge.html */; };
+		3BD6BD8419DB4E660067BB66 /* Controller.js in Resources */ = {isa = PBXBuildFile; fileRef = 3BD6BD8319DB4E660067BB66 /* Controller.js */; };
+		3BD6BD8719DDA0F50067BB66 /* Square.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD6BD8619DDA0F50067BB66 /* Square.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD6BD6C19DA4A1D0067BB66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD6BD4A19DA4A1C0067BB66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD6BD5119DA4A1D0067BB66;
+			remoteInfo = "JavaScript Bridge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BD6BD5219DA4A1D0067BB66 /* JavaScript Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JavaScript Bridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD6BD5619DA4A1D0067BB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD6BD5719DA4A1D0067BB66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BD6BD5919DA4A1D0067BB66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BD6BD5A19DA4A1D0067BB66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BD6BD5C19DA4A1D0067BB66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BD6BD5D19DA4A1D0067BB66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BD6BD6019DA4A1D0067BB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BD6BD6219DA4A1D0067BB66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BD6BD6519DA4A1D0067BB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BD6BD6B19DA4A1D0067BB66 /* JavaScript BridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JavaScript BridgeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD6BD7019DA4A1D0067BB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD6BD7119DA4A1D0067BB66 /* JavaScript_BridgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScript_BridgeTests.m; sourceTree = "<group>"; };
+		3BD6BD7B19DA4D810067BB66 /* JavaScriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaScriptBridge.h; sourceTree = "<group>"; };
+		3BD6BD7C19DA4D810067BB66 /* JavaScriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JavaScriptBridge.m; sourceTree = "<group>"; };
+		3BD6BD8119DB3A420067BB66 /* JavaScriptBridge.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = JavaScriptBridge.html; sourceTree = "<group>"; };
+		3BD6BD8319DB4E660067BB66 /* Controller.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Controller.js; sourceTree = "<group>"; };
+		3BD6BD8519DDA0F50067BB66 /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Square.h; sourceTree = "<group>"; };
+		3BD6BD8619DDA0F50067BB66 /* Square.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Square.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD6BD4F19DA4A1D0067BB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD6BD6819DA4A1D0067BB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BD6BD4919DA4A1C0067BB66 = {
+			isa = PBXGroup;
+			children = (
+				3BD6BD5419DA4A1D0067BB66 /* JavaScript Bridge */,
+				3BD6BD6E19DA4A1D0067BB66 /* JavaScript BridgeTests */,
+				3BD6BD5319DA4A1D0067BB66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD6BD5319DA4A1D0067BB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6BD5219DA4A1D0067BB66 /* JavaScript Bridge.app */,
+				3BD6BD6B19DA4A1D0067BB66 /* JavaScript BridgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD6BD5419DA4A1D0067BB66 /* JavaScript Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6BD5919DA4A1D0067BB66 /* AppDelegate.h */,
+				3BD6BD5A19DA4A1D0067BB66 /* AppDelegate.m */,
+				3BD6BD5C19DA4A1D0067BB66 /* ViewController.h */,
+				3BD6BD5D19DA4A1D0067BB66 /* ViewController.m */,
+				3BD6BD8519DDA0F50067BB66 /* Square.h */,
+				3BD6BD8619DDA0F50067BB66 /* Square.m */,
+				3BD6BD8319DB4E660067BB66 /* Controller.js */,
+				3BD6BD7E19DA53F80067BB66 /* JavaScriptBridge */,
+				3BD6BD5F19DA4A1D0067BB66 /* Main.storyboard */,
+				3BD6BD6219DA4A1D0067BB66 /* Images.xcassets */,
+				3BD6BD6419DA4A1D0067BB66 /* LaunchScreen.xib */,
+				3BD6BD5519DA4A1D0067BB66 /* Supporting Files */,
+			);
+			path = "JavaScript Bridge";
+			sourceTree = "<group>";
+		};
+		3BD6BD5519DA4A1D0067BB66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6BD5619DA4A1D0067BB66 /* Info.plist */,
+				3BD6BD5719DA4A1D0067BB66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD6BD6E19DA4A1D0067BB66 /* JavaScript BridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6BD7119DA4A1D0067BB66 /* JavaScript_BridgeTests.m */,
+				3BD6BD6F19DA4A1D0067BB66 /* Supporting Files */,
+			);
+			path = "JavaScript BridgeTests";
+			sourceTree = "<group>";
+		};
+		3BD6BD6F19DA4A1D0067BB66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6BD7019DA4A1D0067BB66 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD6BD7E19DA53F80067BB66 /* JavaScriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				3BD6BD7B19DA4D810067BB66 /* JavaScriptBridge.h */,
+				3BD6BD7C19DA4D810067BB66 /* JavaScriptBridge.m */,
+				3BD6BD8119DB3A420067BB66 /* JavaScriptBridge.html */,
+			);
+			name = JavaScriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD6BD5119DA4A1D0067BB66 /* JavaScript Bridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD6BD7519DA4A1D0067BB66 /* Build configuration list for PBXNativeTarget "JavaScript Bridge" */;
+			buildPhases = (
+				3BD6BD4E19DA4A1D0067BB66 /* Sources */,
+				3BD6BD4F19DA4A1D0067BB66 /* Frameworks */,
+				3BD6BD5019DA4A1D0067BB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JavaScript Bridge";
+			productName = "JavaScript Bridge";
+			productReference = 3BD6BD5219DA4A1D0067BB66 /* JavaScript Bridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BD6BD6A19DA4A1D0067BB66 /* JavaScript BridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD6BD7819DA4A1D0067BB66 /* Build configuration list for PBXNativeTarget "JavaScript BridgeTests" */;
+			buildPhases = (
+				3BD6BD6719DA4A1D0067BB66 /* Sources */,
+				3BD6BD6819DA4A1D0067BB66 /* Frameworks */,
+				3BD6BD6919DA4A1D0067BB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD6BD6D19DA4A1D0067BB66 /* PBXTargetDependency */,
+			);
+			name = "JavaScript BridgeTests";
+			productName = "JavaScript BridgeTests";
+			productReference = 3BD6BD6B19DA4A1D0067BB66 /* JavaScript BridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD6BD4A19DA4A1C0067BB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Volar Video";
+				TargetAttributes = {
+					3BD6BD5119DA4A1D0067BB66 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					3BD6BD6A19DA4A1D0067BB66 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3BD6BD5119DA4A1D0067BB66;
+					};
+				};
+			};
+			buildConfigurationList = 3BD6BD4D19DA4A1C0067BB66 /* Build configuration list for PBXProject "JavaScript Bridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD6BD4919DA4A1C0067BB66;
+			productRefGroup = 3BD6BD5319DA4A1D0067BB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD6BD5119DA4A1D0067BB66 /* JavaScript Bridge */,
+				3BD6BD6A19DA4A1D0067BB66 /* JavaScript BridgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD6BD5019DA4A1D0067BB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD6BD8419DB4E660067BB66 /* Controller.js in Resources */,
+				3BD6BD8219DB3A420067BB66 /* JavaScriptBridge.html in Resources */,
+				3BD6BD6119DA4A1D0067BB66 /* Main.storyboard in Resources */,
+				3BD6BD6619DA4A1D0067BB66 /* LaunchScreen.xib in Resources */,
+				3BD6BD6319DA4A1D0067BB66 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD6BD6919DA4A1D0067BB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD6BD4E19DA4A1D0067BB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD6BD5E19DA4A1D0067BB66 /* ViewController.m in Sources */,
+				3BD6BD7D19DA4D810067BB66 /* JavaScriptBridge.m in Sources */,
+				3BD6BD5B19DA4A1D0067BB66 /* AppDelegate.m in Sources */,
+				3BD6BD8719DDA0F50067BB66 /* Square.m in Sources */,
+				3BD6BD5819DA4A1D0067BB66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD6BD6719DA4A1D0067BB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD6BD7219DA4A1D0067BB66 /* JavaScript_BridgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD6BD6D19DA4A1D0067BB66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD6BD5119DA4A1D0067BB66 /* JavaScript Bridge */;
+			targetProxy = 3BD6BD6C19DA4A1D0067BB66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BD6BD5F19DA4A1D0067BB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD6BD6019DA4A1D0067BB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BD6BD6419DA4A1D0067BB66 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD6BD6519DA4A1D0067BB66 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD6BD7319DA4A1D0067BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD6BD7419DA4A1D0067BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD6BD7619DA4A1D0067BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JavaScript Bridge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BD6BD7719DA4A1D0067BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "JavaScript Bridge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BD6BD7919DA4A1D0067BB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JavaScript BridgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScript Bridge.app/JavaScript Bridge";
+			};
+			name = Debug;
+		};
+		3BD6BD7A19DA4A1D0067BB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JavaScript BridgeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JavaScript Bridge.app/JavaScript Bridge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD6BD4D19DA4A1C0067BB66 /* Build configuration list for PBXProject "JavaScript Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD6BD7319DA4A1D0067BB66 /* Debug */,
+				3BD6BD7419DA4A1D0067BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD6BD7519DA4A1D0067BB66 /* Build configuration list for PBXNativeTarget "JavaScript Bridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD6BD7619DA4A1D0067BB66 /* Debug */,
+				3BD6BD7719DA4A1D0067BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3BD6BD7819DA4A1D0067BB66 /* Build configuration list for PBXNativeTarget "JavaScript BridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD6BD7919DA4A1D0067BB66 /* Debug */,
+				3BD6BD7A19DA4A1D0067BB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD6BD4A19DA4A1C0067BB66 /* Project object */;
+}
